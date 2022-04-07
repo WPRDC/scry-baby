@@ -58,12 +58,12 @@ async def search():
     if query:
         results = await search_across_sites(query)
         end = time.time()
-        return {
+        return snake_to_camel_fields({
             'count': len(results),
             'elapsed_time': end - start,
             'sources': [source.get_url(query) for source in ACTIVE_SOURCES],
             'results': [snake_to_camel_fields(item) for item in results]
-        }
+        })
     return {}
 
 

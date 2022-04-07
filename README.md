@@ -1,10 +1,12 @@
 # ScryGuy
-## Unified search across structured data sources
+Unified search across structured data sources
 
 ## Requirements
+
 Requires at least python 3.5 as this code uses [type hints](https://peps.python.org/pep-0484/).
 
 ## Development
+
 ```shell
 # install requirements
 pip install -r requirements.txt
@@ -15,6 +17,7 @@ flask run
 ```
 
 ## How to add new sources
+
 Define your source as a class that implements the methods in `Source` in [`sources.py`](sources.py)
 
 ```python
@@ -39,3 +42,8 @@ class Source:
         raise NotImplementedError
 
 ```
+
+## Next Steps
+
+- [ ] Replace flask requirement with aioHTTP server
+- [ ] Add front page sources
