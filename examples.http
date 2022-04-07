@@ -1,0 +1,2 @@
+# search across resources for the term 'population'
+http://localhost:5000/q=population
