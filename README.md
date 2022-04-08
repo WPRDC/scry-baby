@@ -47,3 +47,4 @@ class Source:
 
 - [ ] Replace flask requirement with aioHTTP server
 - [ ] Add front page sources
+- [ ] work into larger service with full text search (evolution to Scry Guy)
