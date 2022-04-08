@@ -1,4 +1,4 @@
-# ScryGuy
+# Scry Baby 🔍 👶
 Unified search across structured data sources
 
 ## Requirements
